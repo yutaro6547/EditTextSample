@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+      android:id="@+id/title"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:textSize="24sp"
+      android:textColor="@color/colorAccent"
+      tools:text="Sample"/>
+
+    <LinearLayout
+      android:id="@+id/input"
+      android:layout_below="@+id/title"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginLeft="12dp"
+      android:layout_marginRight="12dp"
+      android:layout_marginTop="64dp"
+      android:orientation="horizontal">
+
+      <EditText
+        android:id="@+id/one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="1"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1" />
+
+      <EditText
+        android:id="@+id/two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="2"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1" />
+
+      <EditText
+        android:id="@+id/three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="3"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1" />
+
+      <EditText
+        android:id="@+id/four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="4"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1" />
+
+      <EditText
+        android:id="@+id/five"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="5"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1" />
+
+      <EditText
+        android:id="@+id/six"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="6"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1" />
+
+      <EditText
+        android:id="@+id/seven"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="7"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1" />
+
+      <EditText
+        android:id="@+id/eight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="8"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1" />
+
+      <EditText
+        android:id="@+id/nine"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="9"
+        android:inputType="number"
+        android:maxLength="1"
+        android:maxLines="1" />
+    </LinearLayout>
+
+  </RelativeLayout>
+</layout>
